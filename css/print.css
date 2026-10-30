@@ -1,0 +1,30 @@
+/* Druck / PDF: jeder Werkstoff beginnt auf einer neuen Seite. */
+@page { size: A4; margin: 18mm 16mm; }
+
+#print-root { display: none; }
+
+#print-root .blatt { box-sizing: border-box; break-before: page; page-break-before: always; }
+#print-root .blatt:first-child { break-before: auto; page-break-before: auto; }
+#print-root .blatt-head { display: flex; align-items: center; gap: 12pt; border-bottom: 2pt solid #000; padding-bottom: 8pt; }
+#print-root .blatt-head h1 { margin: 0; font-size: 20pt; }
+#print-root .blatt-head .sub { margin: 2pt 0 0; color: #444; }
+#print-root .blatt-head .rev { margin-left: auto; text-align: right; font-size: 9pt; color: #444; }
+#print-root .swatch { width: 26pt; height: 26pt; border: 1pt solid #000; flex: none; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+#print-root section { margin-top: 14pt; }
+#print-root h2 { font-size: 11pt; margin: 0 0 4pt; border-bottom: 0.5pt solid #888; }
+#print-root dl { display: grid; grid-template-columns: 38mm 1fr; gap: 2pt 10pt; margin: 0 0 6pt; }
+#print-root dt { color: #444; } #print-root dd { margin: 0; }
+#print-root .text { white-space: pre-line; margin: 0 0 8pt; }
+#print-root table.kennwerte { width: 100%; border-collapse: collapse; }
+#print-root table.kennwerte th, #print-root table.kennwerte td { padding: 2pt 6pt; border-bottom: 0.5pt solid #bbb; text-align: left; }
+#print-root table.kennwerte .r { text-align: right; }
+#print-root .blatt-foot { margin-top: 18pt; font-size: 8pt; color: #666; border-top: 0.5pt solid #888; padding-top: 4pt; }
+
+@media print {
+  html, body { height: auto; background: #fff; color: #000; display: block; font: 10.5pt/1.35 system-ui, "Segoe UI", sans-serif; }
+  body > *:not(#print-root) { display: none !important; }
+  #print-root { display: block; }
+}
+
+/* app.css-Stile fuer th (sticky, Hintergrund) im Druck neutralisieren */
+#print-root table.kennwerte th { position: static; background: none; color: #000; cursor: auto; font-weight: 700; border-bottom: 1pt solid #000; }

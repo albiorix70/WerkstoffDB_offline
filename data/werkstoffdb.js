@@ -1,0 +1,4858 @@
+window.WDB_DATA = {
+ "meta": {
+  "schema": 1,
+  "quelle": "Metall-Werkstoffe .xlsx",
+  "erzeugt": "2026-10-28T20:35:13",
+  "stand": "2026-10-28T20:35:13"
+ },
+ "kategorien": [
+  {
+   "id": "B",
+   "name": "B"
+  },
+  {
+   "id": "GV",
+   "name": "GV"
+  },
+  {
+   "id": "S",
+   "name": "S"
+  },
+  {
+   "id": "ZM",
+   "name": "ZM"
+  },
+  {
+   "id": "F",
+   "name": "F"
+  },
+  {
+   "id": "E",
+   "name": "E"
+  },
+  {
+   "id": "E4",
+   "name": "E4"
+  },
+  {
+   "id": "E5",
+   "name": "E5"
+  },
+  {
+   "id": "EC",
+   "name": "EC"
+  },
+  {
+   "id": "AL",
+   "name": "AL"
+  },
+  {
+   "id": "MS",
+   "name": "MS"
+  },
+  {
+   "id": "ABS",
+   "name": "ABS"
+  },
+  {
+   "id": "EPDM",
+   "name": "EPDM"
+  },
+  {
+   "id": "PE",
+   "name": "PE"
+  },
+  {
+   "id": "Neoprene",
+   "name": "Neoprene"
+  },
+  {
+   "id": "PA",
+   "name": "PA"
+  },
+  {
+   "id": "PVC",
+   "name": "PVC"
+  },
+  {
+   "id": "TPE",
+   "name": "TPE"
+  },
+  {
+   "id": "Pappe",
+   "name": "Pappe"
+  }
+ ],
+ "typen": [
+  {
+   "id": "metall_eisenwerkstoffe",
+   "name": "Metall, Eisenwerkstoffe"
+  },
+  {
+   "id": "unbekannt",
+   "name": "unbekannt"
+  },
+  {
+   "id": "metall_ne_werkstoffe",
+   "name": "Metall, NE-Werkstoffe"
+  },
+  {
+   "id": "kunststoff",
+   "name": "Kunststoff"
+  },
+  {
+   "id": "papier",
+   "name": "Papier"
+  }
+ ],
+ "eigenschaften": [
+  {
+   "id": "waermeleitfaehigkeit",
+   "name": "Wärmeleitfähigkeit",
+   "einheit": "W/(m·K)",
+   "reihenfolge": 1
+  },
+  {
+   "id": "spezifische_waerme",
+   "name": "Spezifische Wärme",
+   "einheit": "J/(g·°C)",
+   "reihenfolge": 2
+  },
+  {
+   "id": "waermeausdehnung",
+   "name": "Wärmeausdehnungskoeffizient",
+   "einheit": "µm/(m·°C)",
+   "reihenfolge": 3
+  },
+  {
+   "id": "e_modul",
+   "name": "Elastizitätsmodul",
+   "einheit": "GPa",
+   "reihenfolge": 4
+  },
+  {
+   "id": "poisson",
+   "name": "Poissonsche Zahl",
+   "einheit": "",
+   "reihenfolge": 5
+  },
+  {
+   "id": "schubmodul",
+   "name": "Schubmodul",
+   "einheit": "MPa",
+   "reihenfolge": 6
+  },
+  {
+   "id": "dichte",
+   "name": "Dichte",
+   "einheit": "g/cm³",
+   "reihenfolge": 7
+  },
+  {
+   "id": "streckspannung",
+   "name": "Streckspannung",
+   "einheit": "MPa",
+   "reihenfolge": 8
+  },
+  {
+   "id": "zugfestigkeit",
+   "name": "Zugfestigkeit",
+   "einheit": "MPa",
+   "reihenfolge": 9
+  }
+ ],
+ "werkstoffe": [
+  {
+   "id": "W-001",
+   "kategorieId": "B",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "B (1.0122)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt"
+   ],
+   "beschreibung": "B = Stahl DIN EN 10025 1.0122\nS 235 JRC",
+   "werkstoffNummer": "1.0122",
+   "kurzname": "S 235 JRC",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "B = Stahl DIN EN 10025 1.0122",
+   "norm": "DIN EN 10025\nWarmgewalzte Erzeugnisse aus unlegierten Baustählen",
+   "quellen": "WKD 1.0122.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e6e6e6",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-002",
+   "kategorieId": "B",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "B (1.0038)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt"
+   ],
+   "beschreibung": "B = Stahl DIN EN 10025 1.0038\nS 235 JR",
+   "werkstoffNummer": "1.0038",
+   "kurzname": "S 235 JR",
+   "veraltet": "St 37-2 (1.0037)",
+   "bemerkung": "",
+   "zeichnungsangabe": "B = Stahl DIN EN 10025-2 1.0038",
+   "norm": "DIN EN 10025\nWarmgewalzte Erzeugnisse aus unlegierten Baustählen",
+   "quellen": "WKD 1.0038.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e6e6e6",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-003",
+   "kategorieId": "B",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "B (1.0579)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt"
+   ],
+   "beschreibung": "B = Stahl DIN EN 10025 1.0579\nS 355J2C",
+   "werkstoffNummer": "1.0579",
+   "kurzname": "S 355J2C",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "B = Stahl DIN EN 10025 1.0579",
+   "norm": "DIN EN 10025\nWarmgewalzte Erzeugnisse aus unlegierten Baustählen",
+   "quellen": "WKD 1.0579.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e6e6e6",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-004",
+   "kategorieId": "B",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "B (1.0330)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "kaltgewalzt"
+   ],
+   "beschreibung": "B = Stahl DIN EN 10130 1.0330\nDC01",
+   "werkstoffNummer": "1.0330",
+   "kurzname": "DC01",
+   "veraltet": "St 12 (1.0330)",
+   "bemerkung": "",
+   "zeichnungsangabe": "B = Stahl DIN EN 10130 1.0330",
+   "norm": "DIN EN 10130\nKaltgewalzte Flacherzeugnisse aus weichen Stählen zum Kaltumformen",
+   "quellen": "WKD -1.0330_1.0338.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e6e6e6",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-005",
+   "kategorieId": "B",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "B (1.0338)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "kaltgewalzt"
+   ],
+   "beschreibung": "B = Stahl DIN EN 10130 1.0338\nDC04",
+   "werkstoffNummer": "1.0338",
+   "kurzname": "DC04",
+   "veraltet": "St 14 (1.0338)",
+   "bemerkung": "",
+   "zeichnungsangabe": "B = Stahl DIN EN 10130 1.0338",
+   "norm": "DIN EN 10130\nKaltgewalzte Flacherzeugnisse aus weichen Stählen zum Kaltumformen",
+   "quellen": "WKD -1.0330_1.0338.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e6e6e6",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-006",
+   "kategorieId": "B",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "B (1.0304)Draht",
+   "schluesselwoerter": [
+    "Walzdraht",
+    "kaltgezogen"
+   ],
+   "beschreibung": "B = Stahl DIN EN ISO 16120-2 1.0304\nC9D",
+   "werkstoffNummer": "1.0304",
+   "kurzname": "C9D",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "B = Stahl DIN EN ISO 16120-2 1.0304",
+   "norm": "DIN EN ISO 16120-2\nWalzdraht aus unlegiertem Stahl zum Ziehen\nTeil 2: Besondere Anforderungen an Walzdraht für allgemeine Verwendung",
+   "quellen": "WKD Walzdraht.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e6e6e6",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-007",
+   "kategorieId": "B",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "B (Stahl)V",
+   "schluesselwoerter": [
+    "Stahl",
+    "Verbindungselemente"
+   ],
+   "beschreibung": "B = Stahl DIN EN ISO 898\nStahl",
+   "werkstoffNummer": "Stahl",
+   "kurzname": "",
+   "veraltet": "",
+   "bemerkung": "Verbindungselemente",
+   "zeichnungsangabe": "B = Stahl DIN EN ISO 898",
+   "norm": "DIN EN ISO 898-1\nMechanische Eigenschaften von Verbindungselementen aus Kohlenstoffstahl und legiertem Stahl\nTeil 1: Schrauben mit festgelegten Festigkeitsklassen - Regelgewinde und Feingewinde\n\nDIN EN ISO 898-2\nVerbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus Kohlenstoffstahl und legiertem Stahl\nTeil 2: Muttern mit festgelegten Festigkeitsklassen",
+   "quellen": "Autodesk Materialbibliothek „Stahl weich“\nTechnischeDaten-Schrauben.pdf (Schraube 4.6)",
+   "verhalten": "Isotrop",
+   "farbe": "#e6e6e6",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-008",
+   "kategorieId": "B",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "B (1.0038)WZB",
+   "schluesselwoerter": [
+    "Riffelblech",
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt"
+   ],
+   "beschreibung": "B = Stahl DIN EN 10029 1.0038, DIN EN 59220 T\nS 235 JR",
+   "werkstoffNummer": "1.0038",
+   "kurzname": "S 235 JR",
+   "veraltet": "RSt 37-2  (1.0038)",
+   "bemerkung": "Riffelblech",
+   "zeichnungsangabe": "B = Stahl DIN EN 10029 1.0038, DIN EN 59220 T",
+   "norm": "DIN EN 10029\nWarmgewalztes Stahlblech von 3 mm Dicke an - Grenzabmaße und Formtoleranzen\n\nDIN EN 59220 (zurückgezogen)\nFlacherzeugnisse aus Stahl - Warmgewalztes Blech mit Mustern - Maße, Gewichte, Grenzabmaße, Formtoleranzen und Grenzabweichungen der Masse\n\n(DIN 83223\nTafeln aus Tränenblech, Blechprofilroste oder Gitterroste für Flurböden und Laufgänge)",
+   "quellen": "WKD 1.0038.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e6e6e6",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-009",
+   "kategorieId": "GV",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "GV (1.0122)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt",
+    "galvanisch verzinkt"
+   ],
+   "beschreibung": "GV = Stahl DIN EN 10025 1.0122, DIN EN ISO 19598 - FE/Zn8/An/T0\nS 235 JRC + FE/Zn8/An/T0",
+   "werkstoffNummer": "1.0122 + FE/Zn8/An/T0",
+   "kurzname": "S 235 JRC + FE/Zn8/An/T0",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "GV = Stahl DIN EN 10025 1.0122, DIN EN ISO 19598 - FE/Zn8/An/T0",
+   "norm": "DIN EN 10025\nWarmgewalzte Erzeugnisse aus unlegierten Baustählen\n\nDIN EN ISO 19598\nMetallische Überzüge - Galvanische Zink- und Zinklegierungsüberzüge auf Eisenwerkstoffen mit zusätzlichen Cr(VI)-freien Behandlungen",
+   "quellen": "WKD 1.0122.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#dce6f0",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-010",
+   "kategorieId": "GV",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "GV (1.0038)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt",
+    "galvanisch verzinkt"
+   ],
+   "beschreibung": "GV = Stahl DIN EN 10025-2 1.0038, DIN EN ISO 19598 - FE/Zn8/An/T0\nS 235 JR + FE/Zn8/An/T0",
+   "werkstoffNummer": "1.0038 + FE/Zn8/An/T0",
+   "kurzname": "S 235 JR + FE/Zn8/An/T0",
+   "veraltet": "St 37-2 (1.0037)",
+   "bemerkung": "",
+   "zeichnungsangabe": "GV = Stahl DIN EN 10025-2 1.0038, DIN EN ISO 19598 - FE/Zn8/An/T0",
+   "norm": "DIN EN 10025-2\nWarmgewalzte Erzeugnisse aus Baustählen\nTeil 2: Technische Lieferbedingungen für unlegierte Baustähle\n\nDIN EN ISO 19598\nMetallische Überzüge - Galvanische Zink- und Zinklegierungsüberzüge auf Eisenwerkstoffen mit zusätzlichen Cr(VI)-freien Behandlungen",
+   "quellen": "WKD 1.0038.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#dce6f0",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-011",
+   "kategorieId": "GV",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "GV (1.0579)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt",
+    "galvanisch verzinkt"
+   ],
+   "beschreibung": "GV = Stahl DIN EN 10025 1.0579, DIN EN ISO 19598 - FE/Zn8/An/T0\nS 355J2C + FE/Zn8/An/T0",
+   "werkstoffNummer": "1.0579 + FE/Zn8/An/T0",
+   "kurzname": "S 355J2C + FE/Zn8/An/T0",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "GV = Stahl DIN EN 10025 1.0579, DIN EN ISO 19598 - FE/Zn8/An/T0",
+   "norm": "DIN EN 10025\nWarmgewalzte Erzeugnisse aus unlegierten Baustählen\n\nDIN EN ISO 19598\nMetallische Überzüge - Galvanische Zink- und Zinklegierungsüberzüge auf Eisenwerkstoffen mit zusätzlichen Cr(VI)-freien Behandlungen",
+   "quellen": "WKD 1.0579.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#dce6f0",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-012",
+   "kategorieId": "GV",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "GV (1.0330)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "kaltgewalzt",
+    "galvanisch verzinkt"
+   ],
+   "beschreibung": "GV = Stahl DIN EN 10130 1.0330,  DIN EN ISO 19598 - FE/Zn8/An/T0\nDC01 + FE/Zn8/An/T0",
+   "werkstoffNummer": "1.0330 + FE/Zn8/An/T0",
+   "kurzname": "DC01 + FE/Zn8/An/T0",
+   "veraltet": "St 12 (1.0330) + gal.verz.",
+   "bemerkung": "",
+   "zeichnungsangabe": "GV = Stahl DIN EN 10130 1.0330,  DIN EN ISO 19598 - FE/Zn8/An/T0",
+   "norm": "DIN EN 10130\nKaltgewalzte Flacherzeugnisse aus weichen Stählen zum Kaltumformen\n\nDIN EN ISO 19598\nMetallische Überzüge - Galvanische Zink- und Zinklegierungsüberzüge auf Eisenwerkstoffen mit zusätzlichen Cr(VI)-freien Behandlungen",
+   "quellen": "WKD -1.0330_1.0338.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#dce6f0",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-013",
+   "kategorieId": "GV",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "GV (1.0338)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "kaltgewalzt",
+    "galvanisch verzinkt"
+   ],
+   "beschreibung": "GV = Stahl DIN EN 10130 1.0338,  DIN EN ISO 19598 - FE/Zn8/An/T0\nDC04 + FE/Zn8/An/T0",
+   "werkstoffNummer": "1.0338 + FE/Zn8/An/T0",
+   "kurzname": "DC04 + FE/Zn8/An/T0",
+   "veraltet": "St 14 (1.0338) +  gal.verz.",
+   "bemerkung": "",
+   "zeichnungsangabe": "GV = Stahl DIN EN 10130 1.0338,  DIN EN ISO 19598 - FE/Zn8/An/T0",
+   "norm": "DIN EN 10130\nKaltgewalzte Flacherzeugnisse aus weichen Stählen zum Kaltumformen\n\nDIN EN ISO 19598\nMetallische Überzüge - Galvanische Zink- und Zinklegierungsüberzüge auf Eisenwerkstoffen mit zusätzlichen Cr(VI)-freien Behandlungen",
+   "quellen": "WKD -1.0330_1.0338.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#dce6f0",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-014",
+   "kategorieId": "GV",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "GV (1.0304)Draht",
+   "schluesselwoerter": [
+    "Walzdraht",
+    "kaltgezogen",
+    "galvanisch verzinkt"
+   ],
+   "beschreibung": "GV = Stahl DIN EN 16120-2 1.0304, DIN EN ISO 19598 - FE/Zn8/An/T0\nC9D + FE/Zn8/An/T0",
+   "werkstoffNummer": "1.0304 + FE/Zn8/An/T0",
+   "kurzname": "C9D + FE/Zn8/An/T0",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "GV = Stahl DIN EN 16120-2 1.0304, DIN EN ISO 19598 - FE/Zn8/An/T0",
+   "norm": "DIN EN ISO 16120-2\nWalzdraht aus unlegiertem Stahl zum Ziehen\nTeil 2: Besondere Anforderungen an Walzdraht für allgemeine Verwendung  \n\nDIN EN ISO 19598\nMetallische Überzüge - Galvanische Zink- und Zinklegierungsüberzüge auf Eisenwerkstoffen mit zusätzlichen Cr(VI)-freien Behandlungen",
+   "quellen": "WKD Walzdraht.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#dce6f0",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-015",
+   "kategorieId": "GV",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "GV (Stahl)V",
+   "schluesselwoerter": [
+    "Stahl",
+    "Verbindungselemente",
+    "galvanisch verzinkt"
+   ],
+   "beschreibung": "GV = Stahl DIN EN ISO 898, DIN EN ISO 4042 - A2K\nStahl, galvanisch verzinkt",
+   "werkstoffNummer": "Stahl, galvanisch verzinkt",
+   "kurzname": "",
+   "veraltet": "",
+   "bemerkung": "Verbindungselemente",
+   "zeichnungsangabe": "GV = Stahl DIN EN ISO 898, DIN EN ISO 4042 - A2K",
+   "norm": "DIN EN ISO 898-1\nMechanische Eigenschaften von Verbindungselementen aus Kohlenstoffstahl und legiertem Stahl\nTeil 1: Schrauben mit festgelegten Festigkeitsklassen - Regelgewinde und Feingewinde\n\nDIN EN ISO 898-2\nVerbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus Kohlenstoffstahl und legiertem Stahl\nTeil 2: Muttern mit festgelegten Festigkeitsklassen\n\nDIN EN ISO 4042\nVerbindungselemente - Galvanisch aufgebrachte Überzugsysteme",
+   "quellen": "Autodesk Materialbibliothek „Stahl weich“\nTechnischeDaten-Schrauben.pdf (Schraube 4.6)",
+   "verhalten": "Isotrop",
+   "farbe": "#dce6f0",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-016",
+   "kategorieId": "S",
+   "typId": "unbekannt",
+   "name": "S (1.0917)",
+   "schluesselwoerter": [
+    "Stahl",
+    "sendzimirverzinkt"
+   ],
+   "beschreibung": "S = Stahl DIN EN 10346 1.0917  + Z275 MA (C oder O)\nDX51D + Z275 MA (C oder O)",
+   "werkstoffNummer": "1.0917 + Z275 MA (C oder O)",
+   "kurzname": "DX51D + Z275 MA (C oder O)",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "S = Stahl DIN EN 10346 1.0917  + Z275 MA (C oder O)",
+   "norm": "DIN EN 10346\nSchmelztauchveredelte Erzeugnisse aus Stahl",
+   "quellen": "WKD 1.0917.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#c3d2d2",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-017",
+   "kategorieId": "S",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "S (1.0242)",
+   "schluesselwoerter": [
+    "Stahl",
+    "sendzimirverzinkt"
+   ],
+   "beschreibung": "S = Stahl DIN EN 10346 1.0242 + Z275 MA (C oder O)\nS250GD + Z275 MA (C oder O)",
+   "werkstoffNummer": "1.0242 + Z275 MA (C oder O)",
+   "kurzname": "S250GD + Z275 MA (C oder O)",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "S = Stahl DIN EN 10346 1.0242 + Z275 MA (C oder O)",
+   "norm": "DIN EN 10346\nSchmelztauchveredelte Erzeugnisse aus Stahl",
+   "quellen": "WKD 1.0242.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#c3d2d2",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-018",
+   "kategorieId": "S",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "S (1.0304)Draht",
+   "schluesselwoerter": [
+    "Walzdraht",
+    "kaltgezogen",
+    "sendzimirverzinkt"
+   ],
+   "beschreibung": "S = Stahl DIN EN ISO 16120-2 1.0304, DIN EN 10244 - Kl.D\nC9D + Kl.D",
+   "werkstoffNummer": "1.0304 + Kl.D",
+   "kurzname": "C9D + Kl.D",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "S = Stahl DIN EN ISO 16120-2 1.0304, DIN EN 10244 - Kl.D",
+   "norm": "DIN EN ISO 16120-2\nWalzdraht aus unlegiertem Stahl zum Ziehen\nTeil 2: Besondere Anforderungen an Walzdraht für allgemeine Verwendung \n\nDIN EN 10244-2\nStahldraht und Drahterzeugnisse - Überzüge aus Nichteisenmetall auf Stahldraht\nTeil 2: Überzüge aus Zink oder Zinklegierungen",
+   "quellen": "WKD Walzdraht.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#c3d2d2",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-019",
+   "kategorieId": "ZM",
+   "typId": "unbekannt",
+   "name": "ZM (1.0917)",
+   "schluesselwoerter": [
+    "Stahl",
+    "sendzimirverzinkt"
+   ],
+   "beschreibung": "S = Stahl DIN EN 10346 1.0917  + ZM310 MA (C oder O)\nDX51D + ZM310 A (C oder O)",
+   "werkstoffNummer": "1.0917 + ZM310 MA (C oder O)",
+   "kurzname": "DX51D + ZM310 MA (C oder O)",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "ZM = Stahl DIN EN 10346 1.0917  + ZM310 MA (C oder O)",
+   "norm": "DIN EN 10346\nSchmelztauchveredelte Erzeugnisse aus Stahl",
+   "quellen": "WKD 1.0917.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#a0d2d2",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-020",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F (1.0122)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "kaltgewalzt",
+    "feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN 10025 1.0122, DIN EN ISO 1461 - t Zn o\nS 235 JRC + t Zn o",
+   "werkstoffNummer": "1.0122 + t Zn o",
+   "kurzname": "S 235 JRC+ t Zn o",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "F = Stahl DIN EN 10025 1.0122, DIN EN ISO 1461 - t Zn o",
+   "norm": "DIN EN 10025 - Warmgewalzte Erzeugnisse aus Baustählen\n\nDIN EN ISO 1461\nDurch Feuerverzinken auf Stahl aufgebrachte Zinküberzüge (Stückverzinken) - Anforderungen und Prüfungen",
+   "quellen": "WKD 1.0122.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#a8bebe",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-021",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F (1.0038)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt",
+    "feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN 10025 1.0038, DIN EN ISO 1461 - t Zn o\nS 235 JR + t Zn o",
+   "werkstoffNummer": "1.0038 + t Zn o",
+   "kurzname": "S 235 JR + t Zn o",
+   "veraltet": "St 37-2 (1.0037)",
+   "bemerkung": "",
+   "zeichnungsangabe": "F = Stahl DIN EN 10025-2 1.0038, DIN EN ISO 1461 - t Zn o",
+   "norm": "DIN EN 10025-2 -Warmgewalzte Erzeugnisse aus Baustählen\nTeil 2: Technische Lieferbedingungen für unlegierte Baustähle\n\nDIN EN ISO 1461\nDurch Feuerverzinken auf Stahl aufgebrachte Zinküberzüge (Stückverzinken) - Anforderungen und Prüfungen",
+   "quellen": "WKD 1.0038.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#a8bebe",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-022",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F (1.0579)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt",
+    "feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN 10025 1.0579, DIN EN ISO 1461 - t Zn o\nS 355J2C + t Zn o",
+   "werkstoffNummer": "1.0579 + t Zn o",
+   "kurzname": "S 355J2C+ t Zn o",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "F = Stahl DIN EN 10025 1.0579, DIN EN ISO 1461 - t Zn o",
+   "norm": "DIN EN 10025 - Warmgewalzte Erzeugnisse aus Baustählen\n\nDIN EN ISO 1461\nDurch Feuerverzinken auf Stahl aufgebrachte Zinküberzüge (Stückverzinken) - Anforderungen und Prüfungen",
+   "quellen": "WKD 1.0579.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#a8bebe",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-023",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F (1.0330)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "kaltgewalzt",
+    "feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN 10130 1.0330, DIN EN ISO 1461 - t Zn o\nDC01 + t Zn o",
+   "werkstoffNummer": "1.0330 + t Zn o",
+   "kurzname": "DC01 + t Zn o",
+   "veraltet": "St 12 (1.0330) + feuerverz.",
+   "bemerkung": "",
+   "zeichnungsangabe": "F = Stahl DIN EN 10130 1.0330, DIN EN ISO 1461 - t Zn o",
+   "norm": "DIN EN 10130 - Kaltgewalzte Flacherzeugnisse aus weichen Stählen zum Kaltumformen\n\nDIN EN ISO 1461\nDurch Feuerverzinken auf Stahl aufgebrachte Zinküberzüge (Stückverzinken) - Anforderungen und Prüfungen",
+   "quellen": "WKD -1.0330_1.0338.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#a8bebe",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-024",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F (1.0338)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "kaltgewalzt",
+    "feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN 10130 1.0338, DIN EN ISO 1461 - t Zn o\nDC04 + t Zn o",
+   "werkstoffNummer": "1.0338 + t Zn o",
+   "kurzname": "DC04 + t Zn o",
+   "veraltet": "St 14 (1.0338) + feuerverz.",
+   "bemerkung": "",
+   "zeichnungsangabe": "F = Stahl DIN EN 10130 1.0338, DIN EN ISO 1461 - t Zn o",
+   "norm": "DIN EN 10130 - Kaltgewalzte Flacherzeugnisse aus weichen Stählen zum Kaltumformen\n\nDIN EN ISO 1461\nDurch Feuerverzinken auf Stahl aufgebrachte Zinküberzüge (Stückverzinken) - Anforderungen und Prüfungen",
+   "quellen": "WKD -1.0330_1.0338.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#a8bebe",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-025",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F (1.0917)",
+   "schluesselwoerter": [
+    "Stahl",
+    "sendzimirverzinkt + feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN 10346 1.0917 + Z275 MA (C oder O), DIN EN ISO 1461 - t Zn o\nDX51D + Z275 MA (C oder O) + t Zn o",
+   "werkstoffNummer": "1.0917 + Z275 MA (C oder O)  + t Zn o",
+   "kurzname": "DX51D + Z275 MA (C oder O)  + t Zn o",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "F = Stahl DIN EN 10346 1.0917 + Z275 MA (C oder O), DIN EN ISO 1461 - t Zn o",
+   "norm": "DIN EN 10346\nSchmelztauchveredelte Erzeugnisse aus Stahl\n\nDIN EN ISO 1461\nDurch Feuerverzinken auf Stahl aufgebrachte Zinküberzüge (Stückverzinken) - Anforderungen und Prüfungen",
+   "quellen": "WKD 1.0917.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#a8bebe",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-026",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F (1.0242)",
+   "schluesselwoerter": [
+    "Stahl",
+    "sendzimirverzinkt + feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN 10346 1.0242 + Z275 MA (C oder O), DIN EN ISO 1461 - t Zn o\nS250GD + Z275 MA (C oder O) + t Zn o",
+   "werkstoffNummer": "1.0242 + Z275 MA (C oder O) + t Zn o",
+   "kurzname": "S250GD + Z275 MA (C oder O) + t Zn o",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "F = Stahl DIN EN 10346 1.0242 + Z275 MA (C oder O), DIN EN ISO 1461 - t Zn o",
+   "norm": "DIN EN 10346\nSchmelztauchveredelte Erzeugnisse aus Stahl\n\nDIN EN ISO 1461\nDurch Feuerverzinken auf Stahl aufgebrachte Zinküberzüge (Stückverzinken) - Anforderungen und Prüfungen",
+   "quellen": "WKD 1.0242.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#a8bebe",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-027",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F  (1.0304)Draht",
+   "schluesselwoerter": [
+    "Walzdraht",
+    "kaltgezogen",
+    "feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN ISO 16120-2 1.0304, DIN EN ISO 1461 - t Zn o\nC9D + t Zn o",
+   "werkstoffNummer": "1.0304 + t Zn o",
+   "kurzname": "C9D + t Zn o",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "F = Stahl DIN EN ISO 16120-2 1.0304, DIN EN ISO 1461 - t Zn o",
+   "norm": "DIN EN ISO 16120-2\nWalzdraht aus unlegiertem Stahl zum Ziehen\nTeil 2: Besondere Anforderungen an Walzdraht für allgemeine Verwendung  \n\nDIN EN ISO 1461\nDurch Feuerverzinken auf Stahl aufgebrachte Zinküberzüge (Stückverzinken) - Anforderungen und Prüfungen",
+   "quellen": "WKD Walzdraht.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#a8bebe",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-028",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F (Stahl)V",
+   "schluesselwoerter": [
+    "Stahl",
+    "Verbindungselemente",
+    "feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN ISO 898, DIN EN ISO 10684 - t Zn\nStahl, feuerverzinkt",
+   "werkstoffNummer": "Stahl, feuerverzinkt",
+   "kurzname": "",
+   "veraltet": "",
+   "bemerkung": "Verbindungselemente",
+   "zeichnungsangabe": "F = Stahl DIN EN ISO 898, DIN EN ISO 10684 - t Zn",
+   "norm": "DIN EN ISO 898-1\nMechanische Eigenschaften von Verbindungselementen aus Kohlenstoffstahl und legiertem Stahl\nTeil 1: Schrauben mit festgelegten Festigkeitsklassen - Regelgewinde und Feingewinde\n\nDIN EN ISO 898-2\nVerbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus Kohlenstoffstahl und legiertem Stahl\nTeil 2: Muttern mit festgelegten Festigkeitsklassen\n\nDIN EN ISO 10684\nVerbindungselemente - Feuerverzinkung",
+   "quellen": "Autodesk Materialbibliothek „Stahl weich“\nTechnischeDaten-Schrauben.pdf (Schraube 4.6)\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#a8bebe",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-029",
+   "kategorieId": "F",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "F (1.0038)WZB",
+   "schluesselwoerter": [
+    "Riffelblech",
+    "Stahl",
+    "Baustahl",
+    "unlegiert",
+    "warmgewalzt",
+    "feuerverzinkt"
+   ],
+   "beschreibung": "F = Stahl DIN EN 10029 1.0038, DIN EN 59220 T,DIN EN ISO 1461 - t Zn o\nS 235 JR +  t Zn o",
+   "werkstoffNummer": "1.0038 + t Zn o",
+   "kurzname": "S 235 JR + t Zn o",
+   "veraltet": "RSt 37-2  (1.0038)",
+   "bemerkung": "Riffelblech",
+   "zeichnungsangabe": "F = Stahl DIN EN 10029 1.0038, DIN EN 59220 T,DIN EN ISO 1461 - t Zn o",
+   "norm": "DIN EN 10029\nWarmgewalztes Stahlblech von 3 mm Dicke an - Grenzabmaße und Formtoleranzen\n\nDIN EN 59220 (zurückgezogen)\nFlacherzeugnisse aus Stahl - Warmgewalztes Blech mit Mustern - Maße, Gewichte, Grenzabmaße, Formtoleranzen und Grenzabweichungen der Masse\n\n(DIN 83223\nTafeln aus Tränenblech, Blechprofilroste oder Gitterroste für Flurböden und Laufgänge)\n\nDIN EN ISO 1461\nDurch Feuerverzinken auf Stahl aufgebrachte Zinküberzüge (Stückverzinken) - Anforderungen und Prüfungen",
+   "quellen": "WKD 1.0038.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nDichte = Dichte Stahl (7,850 g/cm³) * Faktor 1,07",
+   "verhalten": "Isotrop",
+   "farbe": "#e6e6e6",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-030",
+   "kategorieId": "E",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "E (1.4301)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "E = Stahl DIN EN 10088-2 1.4301\nX5CrNi18-10",
+   "werkstoffNummer": "1.4301",
+   "kurzname": "X5CrNi18-10",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "E = Stahl DIN EN 10088-2 1.4301",
+   "norm": "DIN EN 10088-2\nNichtrostende Stähle für Blech und Band",
+   "quellen": "WKD 1.4301.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#969696",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-031",
+   "kategorieId": "E",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "E (1.4301)Draht",
+   "schluesselwoerter": [
+    "Walzdraht",
+    "kaltgezogen",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "E = Stahl DIN EN 10088-3 1.4301\nX5CrNi18-10",
+   "werkstoffNummer": "1.4301",
+   "kurzname": "X5CrNi18-10",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "E = Stahl DIN EN 10088-3 1.4301",
+   "norm": "DIN EN 10088-3\nNichtrostende Stähle\nTeil 3: Technische Lieferbedingungen für Halbzeug, Stäbe, Walzdraht, gezogenen Draht, Profile und Blankstahlerzeugnisse aus korrosionsbeständigen Stählen für allgemeine Verwendung",
+   "quellen": "WKD Walzdraht.pdf\nWKD 1.4301.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#969696",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-032",
+   "kategorieId": "E",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "E (A2)V",
+   "schluesselwoerter": [
+    "Verbindungselemente",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "E = Stahl DIN EN ISO 3506 A2\nEdelstahl, A2",
+   "werkstoffNummer": "Edelstahl A2",
+   "kurzname": "",
+   "veraltet": "",
+   "bemerkung": "Verbindungselemente",
+   "zeichnungsangabe": "E = Stahl DIN EN ISO 3506 A2",
+   "norm": "DIN EN ISO 3506-1\nMechanische Verbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus korrosionsbeständigen nichtrostenden Stählen\nTeil 1: Schrauben mit festgelegten Stahlsorten und Festigkeitsklassen\n\nDIN EN ISO 3506-2\nMechanische Verbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus korrosionsbeständigen nichtrostenden Stählen\nTeil 2: Muttern mit festgelegten Stahlsorten und Festigkeitsklassen",
+   "quellen": "WKD-1.4301.pdf\nTechnischeDaten-Schrauben.pdf (Schraube A2-50)\nTabellenbuch Metall",
+   "verhalten": "Isotrop",
+   "farbe": "#969696",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-033",
+   "kategorieId": "E4",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "E4 (1.4404_1.4571)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "E4 = Stahl DIN EN 10088-2 1.4404 / 1.4571\nX2CrNiMo17-12-2 / X6CrNiMoTi17-12-2",
+   "werkstoffNummer": "1.4404 / 1.4571",
+   "kurzname": "X2CrNiMo17-12-2 / X6CrNiMoTi17-12-2",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "E4 = Stahl DIN EN 10088-2 1.4404 / 1.4571",
+   "norm": "DIN EN 10088-2\nNichtrostende Stähle für Blech und Band",
+   "quellen": "WKD 1.404.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#f5f5ff",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-034",
+   "kategorieId": "E4",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "E4 (1.4404)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "E4 = Stahl DIN EN 10088-2 1.4404\nX2CrNiMo17-12-2",
+   "werkstoffNummer": "1.4404",
+   "kurzname": "X2CrNiMo17-12-2",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "E4 = Stahl DIN EN 10088-2 1.4404",
+   "norm": "DIN EN 10088-2\nNichtrostende Stähle für Blech und Band",
+   "quellen": "WKD 1.404.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#f5f5ff",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-035",
+   "kategorieId": "E4",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "E4 (1.4571)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "E4 = Stahl DIN EN 10088-2 1.4571\nX6CrNiMoTi17-12-2",
+   "werkstoffNummer": "1.4571",
+   "kurzname": "X6CrNiMoTi17-12-2",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "E4 = Stahl DIN EN 10088-2 1.4571",
+   "norm": "DIN EN 10088-2\nNichtrostende Stähle für Blech und Band",
+   "quellen": "WKD 1.4571.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#f5f5ff",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-036",
+   "kategorieId": "E4",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "E4 (1.4404)Draht",
+   "schluesselwoerter": [
+    "Walzdraht",
+    "kaltgezogen",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "E4 = Stahl DIN EN 10088-3 1.4404\nX6CrNiMoTi17-12-2",
+   "werkstoffNummer": "1.4404",
+   "kurzname": "X2CrNiMo17-12-2",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "E4 = Stahl DIN EN 10088-3 1.4404",
+   "norm": "DIN EN 10088-3\nNichtrostende Stähle\nTeil 3: Technische Lieferbedingungen für Halbzeug, Stäbe, Walzdraht, gezogenen Draht, Profile und Blankstahlerzeugnisse aus korrosionsbeständigen Stählen für allgemeine Verwendung",
+   "quellen": "WKD Walzdraht.pdf\nWKD-01 1.404.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#f5f5ff",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-037",
+   "kategorieId": "E4",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "E4 (A4)V",
+   "schluesselwoerter": [
+    "Verbindungselemente",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "E4 = Stahl DIN EN ISO 3506 A4\nEdelstahl, A4",
+   "werkstoffNummer": "Edelstahl A4",
+   "kurzname": "",
+   "veraltet": "",
+   "bemerkung": "Verbindungselemente",
+   "zeichnungsangabe": "E4 = Stahl DIN EN ISO 3506 A4",
+   "norm": "DIN EN ISO 3506-1\nMechanische Verbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus korrosionsbeständigen nichtrostenden Stählen\nTeil 1: Schrauben mit festgelegten Stahlsorten und Festigkeitsklassen\n\nDIN EN ISO 3506-2\nMechanische Verbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus korrosionsbeständigen nichtrostenden Stählen\nTeil 2: Muttern mit festgelegten Stahlsorten und Festigkeitsklassen",
+   "quellen": "WKD-1.4404.pdf\nTechnischeDaten-Schrauben.pdf (Schraube A4-50)\nTabellenbuch Metall",
+   "verhalten": "Isotrop",
+   "farbe": "#f5f5ff",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-038",
+   "kategorieId": "E5",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "E5 (1.4571)V",
+   "schluesselwoerter": [
+    "Verbindungselemente",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "E5 = Stahl DIN EN ISO 3506 1.4571(A5)\nX6CrNiMoTi17-12-2 (A5)",
+   "werkstoffNummer": "1.4571",
+   "kurzname": "X6CrNiMoTi17-12-2",
+   "veraltet": "",
+   "bemerkung": "Verbindungselemente",
+   "zeichnungsangabe": "E5 = Stahl DIN EN ISO 3506 1.4571(A5)",
+   "norm": "DIN EN ISO 3506-1\nMechanische Verbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus korrosionsbeständigen nichtrostenden Stählen\nTeil 1: Schrauben mit festgelegten Stahlsorten und Festigkeitsklassen\n\nDIN EN ISO 3506-2\nMechanische Verbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus korrosionsbeständigen nichtrostenden Stählen\nTeil 2: Muttern mit festgelegten Stahlsorten und Festigkeitsklassen",
+   "quellen": "WKD 1.4571.pdf\nTechnischeDaten-Schrauben.pdf (Schraube A4-50)\nTabellenbuch Metall",
+   "verhalten": "Isotrop",
+   "farbe": "#ebebff",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-039",
+   "kategorieId": "EC",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "EC (1.4529)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "EC = Stahl DIN EN 10088-2 1.4529\nX1NiCrMoCuN25-20-7",
+   "werkstoffNummer": "1.4529",
+   "kurzname": "X1NiCrMoCuN25-20-7",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "EC = Stahl DIN EN 10088-2 1.4529",
+   "norm": "DIN EN 10088-2\nNichtrostende Stähle für Blech und Band",
+   "quellen": "WKD 1.4529.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#dcdceb",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-040",
+   "kategorieId": "EC",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "EC (1.4547)",
+   "schluesselwoerter": [
+    "Stahl",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "EC = Stahl DIN EN 10088-2 1.4547\nX1CrNiMoCuN20-18-7",
+   "werkstoffNummer": "1.4547",
+   "kurzname": "X1CrNiMoCuN20-18-7",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "EC = Stahl DIN EN 10088-2 1.4547",
+   "norm": "DIN EN 10088-2\nNichtrostende Stähle für Blech und Band",
+   "quellen": "WKD 1.4547.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#dcdceb",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-041",
+   "kategorieId": "EC",
+   "typId": "metall_eisenwerkstoffe",
+   "name": "EC (1.4529)V",
+   "schluesselwoerter": [
+    "Verbindungselemente",
+    "Edelstahl",
+    "Nichtrostend"
+   ],
+   "beschreibung": "EC = Stahl DIN EN ISO 3506 1.4529 \nX1NiCrMoCuN25-20-7",
+   "werkstoffNummer": "1.4529",
+   "kurzname": "X1NiCrMoCuN25-20-7",
+   "veraltet": "",
+   "bemerkung": "Verbindungselemente",
+   "zeichnungsangabe": "EC = Stahl DIN EN ISO 3506 1.4529",
+   "norm": "DIN EN ISO 3506-1\nMechanische Verbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus korrosionsbeständigen nichtrostenden Stählen\nTeil 1: Schrauben mit festgelegten Stahlsorten und Festigkeitsklassen\n\nDIN EN ISO 3506-2\nMechanische Verbindungselemente - Mechanische Eigenschaften von Verbindungselementen aus korrosionsbeständigen nichtrostenden Stählen\nTeil 2: Muttern mit festgelegten Stahlsorten und Festigkeitsklassen",
+   "quellen": "WKD 1.4529.pdf\nTechnischeDaten-Schrauben.pdf (Schraube A4-50)\nTabellenbuch Metall",
+   "verhalten": "Isotrop",
+   "farbe": "#dcdceb",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-042",
+   "kategorieId": "AL",
+   "typId": "metall_ne_werkstoffe",
+   "name": "AL (EN AW 5754)",
+   "schluesselwoerter": [
+    "Aluminium"
+   ],
+   "beschreibung": "AL = Aluminium DIN EN 485 EN AW-5754 (AlMg3F22)\nEN AW-AlMg3F22",
+   "werkstoffNummer": "EN AW-5754",
+   "kurzname": "EN AW-Al Mg3",
+   "veraltet": "Al Mg3 (3.3535)",
+   "bemerkung": "",
+   "zeichnungsangabe": "AL = Aluminium DIN EN 485 EN AW-5754 (AlMg3)",
+   "norm": "DIN EN 573-3\nAluminium und Aluminiumlegierungen - Chemische Zusammensetzung und Form von Halbzeug - Teil 3: Chemische Zusammensetzung und Erzeugnisformen\n\nDIN EN 485\nAluminium und Aluminiumlegierungen - Bänder, Bleche und Platten \nTeil 1: Technische Lieferbedingungen\nTeil 2: Mechanische Eigenschaften",
+   "quellen": "WKD-3.3535-AlMg3F22-en aw 5754.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e1ffe1",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-043",
+   "kategorieId": "AL",
+   "typId": "metall_ne_werkstoffe",
+   "name": "AL (EN AW 5005)",
+   "schluesselwoerter": [
+    "Aluminium"
+   ],
+   "beschreibung": "AL = Aluminium DIN EN 485 EN AW-5005 (AlMg1)\nAlMg1",
+   "werkstoffNummer": "EN AW-5005",
+   "kurzname": "EN AW-AlMg1",
+   "veraltet": "AlMg1 (3.3315)",
+   "bemerkung": "",
+   "zeichnungsangabe": "AL = Aluminium DIN EN 485 EN AW-5005 (AlMg1)",
+   "norm": "DIN EN 573-3\nAluminium und Aluminiumlegierungen - Chemische Zusammensetzung und Form von Halbzeug - Teil 3: Chemische Zusammensetzung und Erzeugnisformen\n\nDIN EN 485\nAluminium und Aluminiumlegierungen - Bänder, Bleche und Platten \nTeil 1: Technische Lieferbedingungen\nTeil 2: Mechanische Eigenschaften",
+   "quellen": "WKD-3.3315-AlMg1-en aw 5005.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e1ffe1",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-044",
+   "kategorieId": "AL",
+   "typId": "metall_ne_werkstoffe",
+   "name": "AL (EN AW 6063)",
+   "schluesselwoerter": [
+    "Aluminium"
+   ],
+   "beschreibung": "AL = Aluminium DIN EN 485 EN AW-6063 T66 (AlMg0,7Si)",
+   "werkstoffNummer": "EN AW-6063",
+   "kurzname": "EN AW-AlMg0,7Si",
+   "veraltet": "AlMg0,7Si (3.3206)",
+   "bemerkung": "",
+   "zeichnungsangabe": "AL = Aluminium DIN EN 485 EN AW-6063 (EN AW-AlMg0,7Si-T66)",
+   "norm": "DIN EN 573-3\nAluminium und Aluminiumlegierungen - Chemische Zusammensetzung und Form von Halbzeug - Teil 3: Chemische Zusammensetzung und Erzeugnisformen\n\nDIN EN 485\nAluminium und Aluminiumlegierungen - Bänder, Bleche und Platten \nTeil 1: Technische Lieferbedingungen\nTeil 2: Mechanische Eigenschaften",
+   "quellen": "WKD-3.3206-AlMg0,7Si-en aw 6063.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e1ffe1",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-045",
+   "kategorieId": "AL",
+   "typId": "metall_ne_werkstoffe",
+   "name": "AL (EN AW 7075)V",
+   "schluesselwoerter": [
+    "Verbindungselemente",
+    "Aluminium"
+   ],
+   "beschreibung": "AL = Aluminium DIN EN 754 / DIN EN 755 EN AW-7075 (AlZn5,5MgCu)\nAlZn5,5MgCu",
+   "werkstoffNummer": "EN AW-7075",
+   "kurzname": "EN AW-AlZn5,5MgCu",
+   "veraltet": "AlZn5,5MgCu (3.4365)",
+   "bemerkung": "Verbindungselemente",
+   "zeichnungsangabe": "AL = Aluminium DIN EN 754 / DIN EN 755 EN AW 7075 (AlZn5,5MgCu)",
+   "norm": "DIN EN 754-2\nAluminium und Aluminiumlegierungen - Gezogene Stangen und Rohre\nTeil 2: Mechanische Eigenschaften\n\nDIN EN 755-2\nAluminium und Aluminiumlegierungen - Stranggepresste Stangen, Rohre und Profile\nTeil 2: Mechanische Eigenschaften",
+   "quellen": "WKD-3.4365-AlZn5,5MgCu-en aw 7075.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e1ffe1",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-046",
+   "kategorieId": "AL",
+   "typId": "metall_ne_werkstoffe",
+   "name": "AL (EN AW 5754 H114)WZB",
+   "schluesselwoerter": [
+    "Aluminium",
+    "Riffelblechblech"
+   ],
+   "beschreibung": "AL = Aluminium DIN EN 485 EN AW-5754 H114 (Al Mg3 W20), DIN EN 1386 Riffelblech\nEN AW-AlMg3 H114\nAl Mg3 W20",
+   "werkstoffNummer": "EN AW-5754 H114",
+   "kurzname": "EN AW-Al Mg3 H114",
+   "veraltet": "Al Mg3 W20 (3.3535)",
+   "bemerkung": "Riffelblech",
+   "zeichnungsangabe": "AL = Aluminium DIN EN 485 EN AW 5754 H114 (Al Mg3 W20), DIN EN 1386 Riffelblech-Duett",
+   "norm": "DIN EN 573-3\nAluminium und Aluminiumlegierungen - Chemische Zusammensetzung und Form von Halbzeug - Teil 3: Chemische Zusammensetzung und Erzeugnisformen\n\nDIN EN 485-2\nAluminium und Aluminiumlegierungen - Bänder, Bleche und Platten \nTeil 2: Mechanische Eigenschaften\n\nDIN EN 1386\nAluminium und Aluminiumlegierungen - Bleche mit eingewalzten Mustern - Spezifikationen",
+   "quellen": "WKD-3.3535-AlMg3 W20-en aw 5754 H114.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e1ffe1",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-047",
+   "kategorieId": "MS",
+   "typId": "metall_ne_werkstoffe",
+   "name": "MS (CW614N)",
+   "schluesselwoerter": [
+    "Messing"
+   ],
+   "beschreibung": "MS = Messing DIN EN 1652 CW614N (CuZn39Pb3)\nCuZn39Pb3",
+   "werkstoffNummer": "CW614N",
+   "kurzname": "CuZn39Pb3",
+   "veraltet": "MS 58 (2.0401)",
+   "bemerkung": "",
+   "zeichnungsangabe": "MS = Messing DIN EN 1652 CW614N (CuZn39Pb3)",
+   "norm": "DIN EN 1652\nKupfer- und Kupferlegierungen - Platten, Bleche, Bänder, Streifen und Ronden zur allgemeinen Verwendung",
+   "quellen": "WKD-CuZn39Pb3.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#ffd700",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-048",
+   "kategorieId": "MS",
+   "typId": "metall_ne_werkstoffe",
+   "name": "MS (CW508L)",
+   "schluesselwoerter": [
+    "Messing"
+   ],
+   "beschreibung": "MS = Messing DIN EN 1652 CW508L (CuZn37)\nCuZn37",
+   "werkstoffNummer": "CW508L",
+   "kurzname": "CuZn37",
+   "veraltet": "CuZn37 (2.0321)",
+   "bemerkung": "",
+   "zeichnungsangabe": "MS = Messing DIN EN 1652 CW508L (CuZn37)",
+   "norm": "DIN EN 1652\nKupfer- und Kupferlegierungen - Platten, Bleche, Bänder, Streifen und Ronden zur allgemeinen Verwendung",
+   "quellen": "WKD-CuZn37.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#ffd700",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-049",
+   "kategorieId": "MS",
+   "typId": "metall_ne_werkstoffe",
+   "name": "MS (CW614N)V",
+   "schluesselwoerter": [
+    "Verbindungselemente",
+    "Messing"
+   ],
+   "beschreibung": "MS = Messing DIN EN 1652 CW614N (CuZn39Pb3)\nCuZn39Pb3",
+   "werkstoffNummer": "CW614N",
+   "kurzname": "CuZn39Pb3",
+   "veraltet": "MS 58 (2.0401)",
+   "bemerkung": "Verbindungselemente",
+   "zeichnungsangabe": "MS = Messing DIN EN 1652 CW614N (CuZn39Pb3)",
+   "norm": "DIN EN 1652\nKupfer- und Kupferlegierungen - Platten, Bleche, Bänder, Streifen und Ronden zur allgemeinen Verwendung",
+   "quellen": "WKD-CuZn39Pb3.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#ffd700",
+   "bildFade": 100,
+   "glanz": 50,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-050",
+   "kategorieId": "ABS",
+   "typId": "kunststoff",
+   "name": "ABS",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Thermoplaste",
+    "ABS"
+   ],
+   "beschreibung": "ABS, Acrylnitril-Butadien-Styrol",
+   "werkstoffNummer": "ABS",
+   "kurzname": "Acrylnitril-Butadien-Styrol",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "ABS",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#27292b",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-051",
+   "kategorieId": "EPDM",
+   "typId": "kunststoff",
+   "name": "EPDM",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Kautschuck",
+    "EPDM"
+   ],
+   "beschreibung": "EPDM, Ethylen-Propylen-Dien - M-Klasse",
+   "werkstoffNummer": "EPDM",
+   "kurzname": "Ethylen-Propylen-Dien - M-Klasse",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "EPDM",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nGoogle",
+   "verhalten": "Isotrop",
+   "farbe": "#2b2b2c",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-052",
+   "kategorieId": "PE",
+   "typId": "kunststoff",
+   "name": "PE-HD",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Thermoplaste",
+    "Polyethylen-High Density",
+    "PE-HD",
+    "HDPE"
+   ],
+   "beschreibung": "PE-HD, Polyethylen-High Density",
+   "werkstoffNummer": "PE-HD",
+   "kurzname": "Polyethylen-High Density",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "HDPE",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#0e0e10",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-053",
+   "kategorieId": "PE",
+   "typId": "kunststoff",
+   "name": "PE-LD",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Thermoplaste",
+    "Polyethylen-Low Density",
+    "PE-LD",
+    "LDPE"
+   ],
+   "beschreibung": "PE-LD, Polyethylen-Low Density",
+   "werkstoffNummer": "PE-LD",
+   "kurzname": "Polyethylen-Low Density",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "LDPE",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#f6b600",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-054",
+   "kategorieId": "Neoprene",
+   "typId": "kunststoff",
+   "name": "Neoprene",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Kautschuck",
+    "Neoprene",
+    "Polychloropren"
+   ],
+   "beschreibung": "Neoprene, Polychloropren",
+   "werkstoffNummer": "Neoprene",
+   "kurzname": "Polychloropren",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "Neoprene",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nGoogle",
+   "verhalten": "Isotrop",
+   "farbe": "#2b2b2c",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-055",
+   "kategorieId": "PA",
+   "typId": "kunststoff",
+   "name": "PA 6",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Thermoplaste",
+    "Polyamid 6",
+    "Nylon"
+   ],
+   "beschreibung": "PA 6, Polyamid 6",
+   "werkstoffNummer": "PA 6",
+   "kurzname": "Polyamid 6",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "PA 6",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#27292b",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-056",
+   "kategorieId": "PA",
+   "typId": "kunststoff",
+   "name": "PA 6 GK30",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Thermoplaste",
+    "Polyamid 6 mit 30% Glaskugel"
+   ],
+   "beschreibung": "PA 6 GK30, Polyamid 6 mit 30% Glaskugel",
+   "werkstoffNummer": "PA 6 GK30",
+   "kurzname": "Polyamid 6 mit 30% Glaskugel",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "PA 6 GK30",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nWerkstoffübersicht Thermoplaste.pdf\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#27292b",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-057",
+   "kategorieId": "PA",
+   "typId": "kunststoff",
+   "name": "PA 66",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Thermoplaste",
+    "Polyamid 66",
+    "Nylon 66"
+   ],
+   "beschreibung": "PA 66, Polyamid 66",
+   "werkstoffNummer": "PA 66",
+   "kurzname": "Polyamid 66",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "PA 66",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#8c969d",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-058",
+   "kategorieId": "PVC",
+   "typId": "kunststoff",
+   "name": "PVC-Hartschaum",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Thermoplaste",
+    "PVC-Hartschaum",
+    "Polyvinylchlorid",
+    "aufgeschäumt"
+   ],
+   "beschreibung": "PVC-Hartschaum, Polyvinylchlorid - aufgeschäumt",
+   "werkstoffNummer": "PVC-Hartschaum",
+   "kurzname": "Polyvinylchlorid - aufgeschäumt",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "PVC-Hartschaum",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nGoogle",
+   "verhalten": "Isotrop",
+   "farbe": "#f0ece1",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-059",
+   "kategorieId": "PVC",
+   "typId": "kunststoff",
+   "name": "PVC weich",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "Thermoplaste",
+    "PVC-weich",
+    "Polyvinylchlorid - weich"
+   ],
+   "beschreibung": "PVC weich, Polyvinylchlorid - weich",
+   "werkstoffNummer": "PVC weich",
+   "kurzname": "Polyvinylchlorid - weich",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "PVC weich",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe",
+   "verhalten": "Isotrop",
+   "farbe": "#e5be01",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-060",
+   "kategorieId": "TPE",
+   "typId": "kunststoff",
+   "name": "TPE",
+   "schluesselwoerter": [
+    "Kunststoff",
+    "TPE",
+    "thermoplastisches Elastomer"
+   ],
+   "beschreibung": "TPE, thermoplastisches Elastomer",
+   "werkstoffNummer": "TPE",
+   "kurzname": "thermoplastisches Elastomer",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "TPE",
+   "norm": "",
+   "quellen": "Kunststoff-Wissen für Einsteiger\nTabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nGoogle",
+   "verhalten": "Isotrop",
+   "farbe": "#c8c8c7",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  },
+  {
+   "id": "W-061",
+   "kategorieId": "Pappe",
+   "typId": "papier",
+   "name": "Pappe",
+   "schluesselwoerter": [
+    "Papier",
+    "Pappe"
+   ],
+   "beschreibung": "Pappe",
+   "werkstoffNummer": "Pappe",
+   "kurzname": "",
+   "veraltet": "",
+   "bemerkung": "",
+   "zeichnungsangabe": "Pappe",
+   "norm": "",
+   "quellen": "Tabellenbuch Metall\nWerkstofftechnik für Metallbauberufe\nGoggle",
+   "verhalten": "",
+   "farbe": "#a9a9a9",
+   "bildFade": null,
+   "glanz": null,
+   "revision": 1,
+   "revisionsdatum": "2026-10-28"
+  }
+ ],
+ "werte": [
+  {
+   "werkstoffId": "W-001",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 56.9
+  },
+  {
+   "werkstoffId": "W-001",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-001",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.5
+  },
+  {
+   "werkstoffId": "W-001",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-001",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-001",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-001",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-001",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-001",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-002",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 54.0
+  },
+  {
+   "werkstoffId": "W-002",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-002",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.1
+  },
+  {
+   "werkstoffId": "W-002",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-002",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-002",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-002",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-002",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-002",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-003",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 42.2
+  },
+  {
+   "werkstoffId": "W-003",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-003",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.5
+  },
+  {
+   "werkstoffId": "W-003",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-003",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-003",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-003",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-003",
+   "eigenschaftId": "streckspannung",
+   "wert": 350.0
+  },
+  {
+   "werkstoffId": "W-003",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 530.0
+  },
+  {
+   "werkstoffId": "W-004",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 48.0
+  },
+  {
+   "werkstoffId": "W-004",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-004",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 11.9
+  },
+  {
+   "werkstoffId": "W-004",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-004",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-004",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-004",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-004",
+   "eigenschaftId": "streckspannung",
+   "wert": 140.0
+  },
+  {
+   "werkstoffId": "W-004",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 270.0
+  },
+  {
+   "werkstoffId": "W-005",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 48.0
+  },
+  {
+   "werkstoffId": "W-005",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-005",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 11.9
+  },
+  {
+   "werkstoffId": "W-005",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-005",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-005",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-005",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-005",
+   "eigenschaftId": "streckspannung",
+   "wert": 140.0
+  },
+  {
+   "werkstoffId": "W-005",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 270.0
+  },
+  {
+   "werkstoffId": "W-006",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 65.2
+  },
+  {
+   "werkstoffId": "W-006",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.481
+  },
+  {
+   "werkstoffId": "W-006",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.6
+  },
+  {
+   "werkstoffId": "W-006",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-006",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-006",
+   "eigenschaftId": "schubmodul",
+   "wert": 78000.0
+  },
+  {
+   "werkstoffId": "W-006",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-006",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-006",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 300.0
+  },
+  {
+   "werkstoffId": "W-007",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 45.0
+  },
+  {
+   "werkstoffId": "W-007",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.48
+  },
+  {
+   "werkstoffId": "W-007",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-007",
+   "eigenschaftId": "e_modul",
+   "wert": 220.0
+  },
+  {
+   "werkstoffId": "W-007",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-007",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-007",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-007",
+   "eigenschaftId": "streckspannung",
+   "wert": 240.0
+  },
+  {
+   "werkstoffId": "W-007",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 400.0
+  },
+  {
+   "werkstoffId": "W-008",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 54.0
+  },
+  {
+   "werkstoffId": "W-008",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-008",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.1
+  },
+  {
+   "werkstoffId": "W-008",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-008",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-008",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-008",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-008",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-008",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-009",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 56.9
+  },
+  {
+   "werkstoffId": "W-009",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-009",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.5
+  },
+  {
+   "werkstoffId": "W-009",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-009",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-009",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-009",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-009",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-009",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-010",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 54.0
+  },
+  {
+   "werkstoffId": "W-010",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-010",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.1
+  },
+  {
+   "werkstoffId": "W-010",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-010",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-010",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-010",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-010",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-010",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-011",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 42.2
+  },
+  {
+   "werkstoffId": "W-011",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-011",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.5
+  },
+  {
+   "werkstoffId": "W-011",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-011",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-011",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-011",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-011",
+   "eigenschaftId": "streckspannung",
+   "wert": 350.0
+  },
+  {
+   "werkstoffId": "W-011",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 530.0
+  },
+  {
+   "werkstoffId": "W-012",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 48.0
+  },
+  {
+   "werkstoffId": "W-012",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-012",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 11.9
+  },
+  {
+   "werkstoffId": "W-012",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-012",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-012",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-012",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-012",
+   "eigenschaftId": "streckspannung",
+   "wert": 140.0
+  },
+  {
+   "werkstoffId": "W-012",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 270.0
+  },
+  {
+   "werkstoffId": "W-013",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 48.0
+  },
+  {
+   "werkstoffId": "W-013",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-013",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 11.9
+  },
+  {
+   "werkstoffId": "W-013",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-013",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-013",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-013",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-013",
+   "eigenschaftId": "streckspannung",
+   "wert": 140.0
+  },
+  {
+   "werkstoffId": "W-013",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 270.0
+  },
+  {
+   "werkstoffId": "W-014",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 65.2
+  },
+  {
+   "werkstoffId": "W-014",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.481
+  },
+  {
+   "werkstoffId": "W-014",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.6
+  },
+  {
+   "werkstoffId": "W-014",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-014",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-014",
+   "eigenschaftId": "schubmodul",
+   "wert": 78000.0
+  },
+  {
+   "werkstoffId": "W-014",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-014",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-014",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 300.0
+  },
+  {
+   "werkstoffId": "W-015",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 45.0
+  },
+  {
+   "werkstoffId": "W-015",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.48
+  },
+  {
+   "werkstoffId": "W-015",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-015",
+   "eigenschaftId": "e_modul",
+   "wert": 220.0
+  },
+  {
+   "werkstoffId": "W-015",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-015",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-015",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-015",
+   "eigenschaftId": "streckspannung",
+   "wert": 240.0
+  },
+  {
+   "werkstoffId": "W-015",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 400.0
+  },
+  {
+   "werkstoffId": "W-016",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 52.0
+  },
+  {
+   "werkstoffId": "W-016",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.431
+  },
+  {
+   "werkstoffId": "W-016",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-016",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-016",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-016",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-016",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-016",
+   "eigenschaftId": "streckspannung",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-016",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 270.0
+  },
+  {
+   "werkstoffId": "W-017",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 52.0
+  },
+  {
+   "werkstoffId": "W-017",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.431
+  },
+  {
+   "werkstoffId": "W-017",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-017",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-017",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-017",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-017",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-017",
+   "eigenschaftId": "streckspannung",
+   "wert": 250.0
+  },
+  {
+   "werkstoffId": "W-017",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 330.0
+  },
+  {
+   "werkstoffId": "W-018",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 65.2
+  },
+  {
+   "werkstoffId": "W-018",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.481
+  },
+  {
+   "werkstoffId": "W-018",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.6
+  },
+  {
+   "werkstoffId": "W-018",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-018",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-018",
+   "eigenschaftId": "schubmodul",
+   "wert": 78000.0
+  },
+  {
+   "werkstoffId": "W-018",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-018",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-018",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 300.0
+  },
+  {
+   "werkstoffId": "W-019",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 52.0
+  },
+  {
+   "werkstoffId": "W-019",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.431
+  },
+  {
+   "werkstoffId": "W-019",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-019",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-019",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-019",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-019",
+   "eigenschaftId": "dichte",
+   "wert": 7.85
+  },
+  {
+   "werkstoffId": "W-019",
+   "eigenschaftId": "streckspannung",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-019",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 270.0
+  },
+  {
+   "werkstoffId": "W-020",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 56.9
+  },
+  {
+   "werkstoffId": "W-020",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-020",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.5
+  },
+  {
+   "werkstoffId": "W-020",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-020",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-020",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-020",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-020",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-020",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-021",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 54.0
+  },
+  {
+   "werkstoffId": "W-021",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-021",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.1
+  },
+  {
+   "werkstoffId": "W-021",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-021",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-021",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-021",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-021",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-021",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-022",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 42.2
+  },
+  {
+   "werkstoffId": "W-022",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-022",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.5
+  },
+  {
+   "werkstoffId": "W-022",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-022",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-022",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-022",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-022",
+   "eigenschaftId": "streckspannung",
+   "wert": 350.0
+  },
+  {
+   "werkstoffId": "W-022",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 530.0
+  },
+  {
+   "werkstoffId": "W-023",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 48.0
+  },
+  {
+   "werkstoffId": "W-023",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-023",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 11.9
+  },
+  {
+   "werkstoffId": "W-023",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-023",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-023",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-023",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-023",
+   "eigenschaftId": "streckspannung",
+   "wert": 140.0
+  },
+  {
+   "werkstoffId": "W-023",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 270.0
+  },
+  {
+   "werkstoffId": "W-024",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 48.0
+  },
+  {
+   "werkstoffId": "W-024",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-024",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 11.9
+  },
+  {
+   "werkstoffId": "W-024",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-024",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-024",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-024",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-024",
+   "eigenschaftId": "streckspannung",
+   "wert": 140.0
+  },
+  {
+   "werkstoffId": "W-024",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 270.0
+  },
+  {
+   "werkstoffId": "W-025",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 52.0
+  },
+  {
+   "werkstoffId": "W-025",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.431
+  },
+  {
+   "werkstoffId": "W-025",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-025",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-025",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-025",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-025",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-025",
+   "eigenschaftId": "streckspannung",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-025",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 270.0
+  },
+  {
+   "werkstoffId": "W-026",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 52.0
+  },
+  {
+   "werkstoffId": "W-026",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.431
+  },
+  {
+   "werkstoffId": "W-026",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-026",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-026",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-026",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-026",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-026",
+   "eigenschaftId": "streckspannung",
+   "wert": 250.0
+  },
+  {
+   "werkstoffId": "W-026",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 330.0
+  },
+  {
+   "werkstoffId": "W-027",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 65.2
+  },
+  {
+   "werkstoffId": "W-027",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.481
+  },
+  {
+   "werkstoffId": "W-027",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.6
+  },
+  {
+   "werkstoffId": "W-027",
+   "eigenschaftId": "e_modul",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-027",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-027",
+   "eigenschaftId": "schubmodul",
+   "wert": 78000.0
+  },
+  {
+   "werkstoffId": "W-027",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-027",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-027",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 300.0
+  },
+  {
+   "werkstoffId": "W-028",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 45.0
+  },
+  {
+   "werkstoffId": "W-028",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.48
+  },
+  {
+   "werkstoffId": "W-028",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-028",
+   "eigenschaftId": "e_modul",
+   "wert": 220.0
+  },
+  {
+   "werkstoffId": "W-028",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-028",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-028",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-028",
+   "eigenschaftId": "streckspannung",
+   "wert": 240.0
+  },
+  {
+   "werkstoffId": "W-028",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 400.0
+  },
+  {
+   "werkstoffId": "W-029",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 54.0
+  },
+  {
+   "werkstoffId": "W-029",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.461
+  },
+  {
+   "werkstoffId": "W-029",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 12.1
+  },
+  {
+   "werkstoffId": "W-029",
+   "eigenschaftId": "e_modul",
+   "wert": 212.0
+  },
+  {
+   "werkstoffId": "W-029",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-029",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-029",
+   "eigenschaftId": "dichte",
+   "wert": 8.399
+  },
+  {
+   "werkstoffId": "W-029",
+   "eigenschaftId": "streckspannung",
+   "wert": 235.0
+  },
+  {
+   "werkstoffId": "W-029",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-030",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-030",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-030",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-030",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-030",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-030",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-030",
+   "eigenschaftId": "dichte",
+   "wert": 7.9
+  },
+  {
+   "werkstoffId": "W-030",
+   "eigenschaftId": "streckspannung",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-030",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 500.0
+  },
+  {
+   "werkstoffId": "W-031",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-031",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-031",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-031",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-031",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-031",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-031",
+   "eigenschaftId": "dichte",
+   "wert": 7.9
+  },
+  {
+   "werkstoffId": "W-031",
+   "eigenschaftId": "streckspannung",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-031",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 500.0
+  },
+  {
+   "werkstoffId": "W-032",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-032",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-032",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-032",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-032",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-032",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-032",
+   "eigenschaftId": "dichte",
+   "wert": 7.9
+  },
+  {
+   "werkstoffId": "W-032",
+   "eigenschaftId": "streckspannung",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-032",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 500.0
+  },
+  {
+   "werkstoffId": "W-033",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-033",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-033",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-033",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-033",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-033",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-033",
+   "eigenschaftId": "dichte",
+   "wert": 8.0
+  },
+  {
+   "werkstoffId": "W-033",
+   "eigenschaftId": "streckspannung",
+   "wert": 220.0
+  },
+  {
+   "werkstoffId": "W-033",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 520.0
+  },
+  {
+   "werkstoffId": "W-034",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-034",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-034",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-034",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-034",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-034",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-034",
+   "eigenschaftId": "dichte",
+   "wert": 8.0
+  },
+  {
+   "werkstoffId": "W-034",
+   "eigenschaftId": "streckspannung",
+   "wert": 220.0
+  },
+  {
+   "werkstoffId": "W-034",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 520.0
+  },
+  {
+   "werkstoffId": "W-035",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-035",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-035",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.5
+  },
+  {
+   "werkstoffId": "W-035",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-035",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-035",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-035",
+   "eigenschaftId": "dichte",
+   "wert": 8.0
+  },
+  {
+   "werkstoffId": "W-035",
+   "eigenschaftId": "streckspannung",
+   "wert": 220.0
+  },
+  {
+   "werkstoffId": "W-035",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 520.0
+  },
+  {
+   "werkstoffId": "W-036",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-036",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-036",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-036",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-036",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-036",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-036",
+   "eigenschaftId": "dichte",
+   "wert": 8.0
+  },
+  {
+   "werkstoffId": "W-036",
+   "eigenschaftId": "streckspannung",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-036",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 500.0
+  },
+  {
+   "werkstoffId": "W-037",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-037",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-037",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-037",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-037",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-037",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-037",
+   "eigenschaftId": "dichte",
+   "wert": 8.0
+  },
+  {
+   "werkstoffId": "W-037",
+   "eigenschaftId": "streckspannung",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-037",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 500.0
+  },
+  {
+   "werkstoffId": "W-038",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-038",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-038",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.5
+  },
+  {
+   "werkstoffId": "W-038",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-038",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-038",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-038",
+   "eigenschaftId": "dichte",
+   "wert": 8.0
+  },
+  {
+   "werkstoffId": "W-038",
+   "eigenschaftId": "streckspannung",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-038",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 500.0
+  },
+  {
+   "werkstoffId": "W-039",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-039",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.45
+  },
+  {
+   "werkstoffId": "W-039",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-039",
+   "eigenschaftId": "e_modul",
+   "wert": 195.0
+  },
+  {
+   "werkstoffId": "W-039",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-039",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-039",
+   "eigenschaftId": "dichte",
+   "wert": 8.1
+  },
+  {
+   "werkstoffId": "W-039",
+   "eigenschaftId": "streckspannung",
+   "wert": 300.0
+  },
+  {
+   "werkstoffId": "W-039",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 650.0
+  },
+  {
+   "werkstoffId": "W-040",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 13.0
+  },
+  {
+   "werkstoffId": "W-040",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.5
+  },
+  {
+   "werkstoffId": "W-040",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-040",
+   "eigenschaftId": "e_modul",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-040",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-040",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-040",
+   "eigenschaftId": "dichte",
+   "wert": 8.0
+  },
+  {
+   "werkstoffId": "W-040",
+   "eigenschaftId": "streckspannung",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-040",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 500.0
+  },
+  {
+   "werkstoffId": "W-041",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 12.0
+  },
+  {
+   "werkstoffId": "W-041",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.45
+  },
+  {
+   "werkstoffId": "W-041",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 16.0
+  },
+  {
+   "werkstoffId": "W-041",
+   "eigenschaftId": "e_modul",
+   "wert": 195.0
+  },
+  {
+   "werkstoffId": "W-041",
+   "eigenschaftId": "poisson",
+   "wert": 0.3
+  },
+  {
+   "werkstoffId": "W-041",
+   "eigenschaftId": "schubmodul",
+   "wert": 81000.0
+  },
+  {
+   "werkstoffId": "W-041",
+   "eigenschaftId": "dichte",
+   "wert": 8.1
+  },
+  {
+   "werkstoffId": "W-041",
+   "eigenschaftId": "streckspannung",
+   "wert": 210.0
+  },
+  {
+   "werkstoffId": "W-041",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 500.0
+  },
+  {
+   "werkstoffId": "W-042",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 150.0
+  },
+  {
+   "werkstoffId": "W-042",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.9
+  },
+  {
+   "werkstoffId": "W-042",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 23.9
+  },
+  {
+   "werkstoffId": "W-042",
+   "eigenschaftId": "e_modul",
+   "wert": 70.5
+  },
+  {
+   "werkstoffId": "W-042",
+   "eigenschaftId": "poisson",
+   "wert": 0.33
+  },
+  {
+   "werkstoffId": "W-042",
+   "eigenschaftId": "schubmodul",
+   "wert": 26500.0
+  },
+  {
+   "werkstoffId": "W-042",
+   "eigenschaftId": "dichte",
+   "wert": 2.66
+  },
+  {
+   "werkstoffId": "W-042",
+   "eigenschaftId": "streckspannung",
+   "wert": 130.0
+  },
+  {
+   "werkstoffId": "W-042",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 220.0
+  },
+  {
+   "werkstoffId": "W-043",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 190.0
+  },
+  {
+   "werkstoffId": "W-043",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.9
+  },
+  {
+   "werkstoffId": "W-043",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 23.6
+  },
+  {
+   "werkstoffId": "W-043",
+   "eigenschaftId": "e_modul",
+   "wert": 69.5
+  },
+  {
+   "werkstoffId": "W-043",
+   "eigenschaftId": "poisson",
+   "wert": 0.33
+  },
+  {
+   "werkstoffId": "W-043",
+   "eigenschaftId": "schubmodul",
+   "wert": 26100.0
+  },
+  {
+   "werkstoffId": "W-043",
+   "eigenschaftId": "dichte",
+   "wert": 2.69
+  },
+  {
+   "werkstoffId": "W-043",
+   "eigenschaftId": "streckspannung",
+   "wert": 80.0
+  },
+  {
+   "werkstoffId": "W-043",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 125.0
+  },
+  {
+   "werkstoffId": "W-044",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 200.0
+  },
+  {
+   "werkstoffId": "W-044",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.9
+  },
+  {
+   "werkstoffId": "W-044",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 23.5
+  },
+  {
+   "werkstoffId": "W-044",
+   "eigenschaftId": "e_modul",
+   "wert": 69.0
+  },
+  {
+   "werkstoffId": "W-044",
+   "eigenschaftId": "poisson",
+   "wert": 0.33
+  },
+  {
+   "werkstoffId": "W-044",
+   "eigenschaftId": "schubmodul",
+   "wert": 26100.0
+  },
+  {
+   "werkstoffId": "W-044",
+   "eigenschaftId": "dichte",
+   "wert": 2.7
+  },
+  {
+   "werkstoffId": "W-044",
+   "eigenschaftId": "streckspannung",
+   "wert": 180.0
+  },
+  {
+   "werkstoffId": "W-044",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 225.0
+  },
+  {
+   "werkstoffId": "W-045",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 145.0
+  },
+  {
+   "werkstoffId": "W-045",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.862
+  },
+  {
+   "werkstoffId": "W-045",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 23.4
+  },
+  {
+   "werkstoffId": "W-045",
+   "eigenschaftId": "e_modul",
+   "wert": 72.0
+  },
+  {
+   "werkstoffId": "W-045",
+   "eigenschaftId": "poisson",
+   "wert": 0.33
+  },
+  {
+   "werkstoffId": "W-045",
+   "eigenschaftId": "schubmodul",
+   "wert": 27100.0
+  },
+  {
+   "werkstoffId": "W-045",
+   "eigenschaftId": "dichte",
+   "wert": 2.8
+  },
+  {
+   "werkstoffId": "W-045",
+   "eigenschaftId": "streckspannung",
+   "wert": 165.0
+  },
+  {
+   "werkstoffId": "W-045",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 275.0
+  },
+  {
+   "werkstoffId": "W-046",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 135.0
+  },
+  {
+   "werkstoffId": "W-046",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.9
+  },
+  {
+   "werkstoffId": "W-046",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 23.8
+  },
+  {
+   "werkstoffId": "W-046",
+   "eigenschaftId": "e_modul",
+   "wert": 70.0
+  },
+  {
+   "werkstoffId": "W-046",
+   "eigenschaftId": "poisson",
+   "wert": 0.33
+  },
+  {
+   "werkstoffId": "W-046",
+   "eigenschaftId": "schubmodul",
+   "wert": 26500.0
+  },
+  {
+   "werkstoffId": "W-046",
+   "eigenschaftId": "dichte",
+   "wert": 2.67
+  },
+  {
+   "werkstoffId": "W-046",
+   "eigenschaftId": "streckspannung",
+   "wert": 80.0
+  },
+  {
+   "werkstoffId": "W-046",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 190.0
+  },
+  {
+   "werkstoffId": "W-047",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 123.0
+  },
+  {
+   "werkstoffId": "W-047",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.377
+  },
+  {
+   "werkstoffId": "W-047",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 19.3
+  },
+  {
+   "werkstoffId": "W-047",
+   "eigenschaftId": "e_modul",
+   "wert": 97.0
+  },
+  {
+   "werkstoffId": "W-047",
+   "eigenschaftId": "poisson",
+   "wert": 0.37
+  },
+  {
+   "werkstoffId": "W-047",
+   "eigenschaftId": "schubmodul",
+   "wert": 375.0
+  },
+  {
+   "werkstoffId": "W-047",
+   "eigenschaftId": "dichte",
+   "wert": 8.47
+  },
+  {
+   "werkstoffId": "W-047",
+   "eigenschaftId": "streckspannung",
+   "wert": 150.0
+  },
+  {
+   "werkstoffId": "W-047",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-048",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 120.0
+  },
+  {
+   "werkstoffId": "W-048",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.377
+  },
+  {
+   "werkstoffId": "W-048",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 19.0
+  },
+  {
+   "werkstoffId": "W-048",
+   "eigenschaftId": "e_modul",
+   "wert": 110.0
+  },
+  {
+   "werkstoffId": "W-048",
+   "eigenschaftId": "poisson",
+   "wert": 0.37
+  },
+  {
+   "werkstoffId": "W-048",
+   "eigenschaftId": "schubmodul",
+   "wert": 375.0
+  },
+  {
+   "werkstoffId": "W-048",
+   "eigenschaftId": "dichte",
+   "wert": 8.44
+  },
+  {
+   "werkstoffId": "W-048",
+   "eigenschaftId": "streckspannung",
+   "wert": 180.0
+  },
+  {
+   "werkstoffId": "W-048",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 300.0
+  },
+  {
+   "werkstoffId": "W-049",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 123.0
+  },
+  {
+   "werkstoffId": "W-049",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.377
+  },
+  {
+   "werkstoffId": "W-049",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 19.3
+  },
+  {
+   "werkstoffId": "W-049",
+   "eigenschaftId": "e_modul",
+   "wert": 97.0
+  },
+  {
+   "werkstoffId": "W-049",
+   "eigenschaftId": "poisson",
+   "wert": 0.37
+  },
+  {
+   "werkstoffId": "W-049",
+   "eigenschaftId": "schubmodul",
+   "wert": 375.0
+  },
+  {
+   "werkstoffId": "W-049",
+   "eigenschaftId": "dichte",
+   "wert": 8.47
+  },
+  {
+   "werkstoffId": "W-049",
+   "eigenschaftId": "streckspannung",
+   "wert": 150.0
+  },
+  {
+   "werkstoffId": "W-049",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 360.0
+  },
+  {
+   "werkstoffId": "W-050",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.18
+  },
+  {
+   "werkstoffId": "W-050",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 1.3
+  },
+  {
+   "werkstoffId": "W-050",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 60.0
+  },
+  {
+   "werkstoffId": "W-050",
+   "eigenschaftId": "e_modul",
+   "wert": 0.0013
+  },
+  {
+   "werkstoffId": "W-050",
+   "eigenschaftId": "poisson",
+   "wert": 0.38
+  },
+  {
+   "werkstoffId": "W-050",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-050",
+   "eigenschaftId": "dichte",
+   "wert": 1.05
+  },
+  {
+   "werkstoffId": "W-050",
+   "eigenschaftId": "streckspannung",
+   "wert": 32.0
+  },
+  {
+   "werkstoffId": "W-050",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 32.0
+  },
+  {
+   "werkstoffId": "W-051",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.29
+  },
+  {
+   "werkstoffId": "W-051",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 1.85
+  },
+  {
+   "werkstoffId": "W-051",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-051",
+   "eigenschaftId": "e_modul",
+   "wert": 0.001
+  },
+  {
+   "werkstoffId": "W-051",
+   "eigenschaftId": "poisson",
+   "wert": 0.45
+  },
+  {
+   "werkstoffId": "W-051",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-051",
+   "eigenschaftId": "dichte",
+   "wert": 1.5
+  },
+  {
+   "werkstoffId": "W-051",
+   "eigenschaftId": "streckspannung",
+   "wert": 10.0
+  },
+  {
+   "werkstoffId": "W-051",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 10.0
+  },
+  {
+   "werkstoffId": "W-052",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.38
+  },
+  {
+   "werkstoffId": "W-052",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 2.1
+  },
+  {
+   "werkstoffId": "W-052",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 120.0
+  },
+  {
+   "werkstoffId": "W-052",
+   "eigenschaftId": "e_modul",
+   "wert": 0.7
+  },
+  {
+   "werkstoffId": "W-052",
+   "eigenschaftId": "poisson",
+   "wert": 0.4
+  },
+  {
+   "werkstoffId": "W-052",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-052",
+   "eigenschaftId": "dichte",
+   "wert": 0.95
+  },
+  {
+   "werkstoffId": "W-052",
+   "eigenschaftId": "streckspannung",
+   "wert": 18.0
+  },
+  {
+   "werkstoffId": "W-052",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 18.0
+  },
+  {
+   "werkstoffId": "W-053",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.23
+  },
+  {
+   "werkstoffId": "W-053",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 2.1
+  },
+  {
+   "werkstoffId": "W-053",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 230.0
+  },
+  {
+   "werkstoffId": "W-053",
+   "eigenschaftId": "e_modul",
+   "wert": 0.2
+  },
+  {
+   "werkstoffId": "W-053",
+   "eigenschaftId": "poisson",
+   "wert": 0.45
+  },
+  {
+   "werkstoffId": "W-053",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-053",
+   "eigenschaftId": "dichte",
+   "wert": 0.92
+  },
+  {
+   "werkstoffId": "W-053",
+   "eigenschaftId": "streckspannung",
+   "wert": 8.0
+  },
+  {
+   "werkstoffId": "W-053",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 8.0
+  },
+  {
+   "werkstoffId": "W-054",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.25
+  },
+  {
+   "werkstoffId": "W-054",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 1.0
+  },
+  {
+   "werkstoffId": "W-054",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 60.0
+  },
+  {
+   "werkstoffId": "W-054",
+   "eigenschaftId": "e_modul",
+   "wert": 0.0013
+  },
+  {
+   "werkstoffId": "W-054",
+   "eigenschaftId": "poisson",
+   "wert": 0.38
+  },
+  {
+   "werkstoffId": "W-054",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-054",
+   "eigenschaftId": "dichte",
+   "wert": 1.35
+  },
+  {
+   "werkstoffId": "W-054",
+   "eigenschaftId": "streckspannung",
+   "wert": 10.0
+  },
+  {
+   "werkstoffId": "W-054",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 10.0
+  },
+  {
+   "werkstoffId": "W-055",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.29
+  },
+  {
+   "werkstoffId": "W-055",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 1.7
+  },
+  {
+   "werkstoffId": "W-055",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 80.0
+  },
+  {
+   "werkstoffId": "W-055",
+   "eigenschaftId": "e_modul",
+   "wert": 1.4
+  },
+  {
+   "werkstoffId": "W-055",
+   "eigenschaftId": "poisson",
+   "wert": 0.35
+  },
+  {
+   "werkstoffId": "W-055",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-055",
+   "eigenschaftId": "dichte",
+   "wert": 1.13
+  },
+  {
+   "werkstoffId": "W-055",
+   "eigenschaftId": "streckspannung",
+   "wert": 70.0
+  },
+  {
+   "werkstoffId": "W-055",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 70.0
+  },
+  {
+   "werkstoffId": "W-056",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.41
+  },
+  {
+   "werkstoffId": "W-056",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 1.7
+  },
+  {
+   "werkstoffId": "W-056",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 60.0
+  },
+  {
+   "werkstoffId": "W-056",
+   "eigenschaftId": "e_modul",
+   "wert": 5.7
+  },
+  {
+   "werkstoffId": "W-056",
+   "eigenschaftId": "poisson",
+   "wert": 0.35
+  },
+  {
+   "werkstoffId": "W-056",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-056",
+   "eigenschaftId": "dichte",
+   "wert": 1.36
+  },
+  {
+   "werkstoffId": "W-056",
+   "eigenschaftId": "streckspannung",
+   "wert": 89.0
+  },
+  {
+   "werkstoffId": "W-056",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 89.0
+  },
+  {
+   "werkstoffId": "W-057",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.23
+  },
+  {
+   "werkstoffId": "W-057",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 1.7
+  },
+  {
+   "werkstoffId": "W-057",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 70.0
+  },
+  {
+   "werkstoffId": "W-057",
+   "eigenschaftId": "e_modul",
+   "wert": 2.0
+  },
+  {
+   "werkstoffId": "W-057",
+   "eigenschaftId": "poisson",
+   "wert": 0.35
+  },
+  {
+   "werkstoffId": "W-057",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-057",
+   "eigenschaftId": "dichte",
+   "wert": 1.14
+  },
+  {
+   "werkstoffId": "W-057",
+   "eigenschaftId": "streckspannung",
+   "wert": 77.0
+  },
+  {
+   "werkstoffId": "W-057",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 77.0
+  },
+  {
+   "werkstoffId": "W-058",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.14
+  },
+  {
+   "werkstoffId": "W-058",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.85
+  },
+  {
+   "werkstoffId": "W-058",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 70.0
+  },
+  {
+   "werkstoffId": "W-058",
+   "eigenschaftId": "e_modul",
+   "wert": 1.0
+  },
+  {
+   "werkstoffId": "W-058",
+   "eigenschaftId": "poisson",
+   "wert": 0.39
+  },
+  {
+   "werkstoffId": "W-058",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-058",
+   "eigenschaftId": "dichte",
+   "wert": 1.45
+  },
+  {
+   "werkstoffId": "W-058",
+   "eigenschaftId": "streckspannung",
+   "wert": 50.0
+  },
+  {
+   "werkstoffId": "W-058",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 50.0
+  },
+  {
+   "werkstoffId": "W-059",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.15
+  },
+  {
+   "werkstoffId": "W-059",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 0.9
+  },
+  {
+   "werkstoffId": "W-059",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 150.0
+  },
+  {
+   "werkstoffId": "W-059",
+   "eigenschaftId": "e_modul",
+   "wert": 1.0
+  },
+  {
+   "werkstoffId": "W-059",
+   "eigenschaftId": "poisson",
+   "wert": 0.39
+  },
+  {
+   "werkstoffId": "W-059",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-059",
+   "eigenschaftId": "dichte",
+   "wert": 1.3
+  },
+  {
+   "werkstoffId": "W-059",
+   "eigenschaftId": "streckspannung",
+   "wert": 10.0
+  },
+  {
+   "werkstoffId": "W-059",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 10.0
+  },
+  {
+   "werkstoffId": "W-060",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.243
+  },
+  {
+   "werkstoffId": "W-060",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 1.965
+  },
+  {
+   "werkstoffId": "W-060",
+   "eigenschaftId": "waermeausdehnung",
+   "wert": 160.0
+  },
+  {
+   "werkstoffId": "W-060",
+   "eigenschaftId": "e_modul",
+   "wert": 0.0001
+  },
+  {
+   "werkstoffId": "W-060",
+   "eigenschaftId": "poisson",
+   "wert": 0.49
+  },
+  {
+   "werkstoffId": "W-060",
+   "eigenschaftId": "schubmodul",
+   "wert": 100.0
+  },
+  {
+   "werkstoffId": "W-060",
+   "eigenschaftId": "dichte",
+   "wert": 1.01
+  },
+  {
+   "werkstoffId": "W-060",
+   "eigenschaftId": "streckspannung",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-060",
+   "eigenschaftId": "zugfestigkeit",
+   "wert": 15.0
+  },
+  {
+   "werkstoffId": "W-061",
+   "eigenschaftId": "waermeleitfaehigkeit",
+   "wert": 0.04
+  },
+  {
+   "werkstoffId": "W-061",
+   "eigenschaftId": "spezifische_waerme",
+   "wert": 1.3
+  },
+  {
+   "werkstoffId": "W-061",
+   "eigenschaftId": "dichte",
+   "wert": 1.0
+  }
+ ],
+ "revisionen": [
+  {
+   "werkstoffId": "W-001",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-002",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-003",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-004",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-005",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-006",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-007",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-008",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-009",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-010",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-011",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-012",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-013",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-014",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-015",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-016",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-017",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-018",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-019",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-020",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-021",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-022",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-023",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-024",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-025",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-026",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-027",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-028",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-029",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-030",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-031",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-032",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-033",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-034",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-035",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-036",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-037",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-038",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-039",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-040",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-041",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-042",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-043",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-044",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-045",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-046",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-047",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-048",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-049",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-050",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-051",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-052",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-053",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-054",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-055",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-056",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-057",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-058",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-059",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-060",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  },
+  {
+   "werkstoffId": "W-061",
+   "revision": 1,
+   "datum": "2026-10-28",
+   "kommentar": "Erstimport aus Metall-Werkstoffe.xlsx (Kennwerte)",
+   "aenderungen": []
+  }
+ ]
+};

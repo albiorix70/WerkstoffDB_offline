@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WerkstoffDB Offline</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/print.css" />
+  </head>
+  <body>
+    <header class="bar">
+      <h1>WerkstoffDB <small>offline</small></h1>
+      <div class="bar-actions">
+        <span id="status" class="status" title="Speicherstatus"></span>
+        <button id="btn-connect" type="button" title="Ordner data/ verbinden, damit Änderungen direkt in die JSON-Dateien geschrieben werden">Datenordner verbinden</button>
+        <button id="btn-md" type="button" title="Kategorien, Typen und Kennwert-Definitionen bearbeiten">Stammdaten</button>
+        <button id="btn-new" type="button">Neuer Werkstoff</button>
+        <button id="btn-export" type="button">JSON exportieren</button>
+      </div>
+    </header>
+
+    <section class="filters" aria-label="Filter">
+      <label>Suche
+        <input id="f-text" type="search" placeholder="Name, Nummer, Norm, Schlüsselwort …" />
+      </label>
+      <label>Kategorie
+        <select id="f-kat"></select>
+      </label>
+      <label>Typ
+        <select id="f-typ"></select>
+      </label>
+      <fieldset>
+        <legend>Dichte [g/cm³]</legend>
+        <input id="f-dichte-min" type="number" step="any" placeholder="von" />
+        <input id="f-dichte-max" type="number" step="any" placeholder="bis" />
+      </fieldset>
+      <fieldset>
+        <legend>Zugfestigkeit [MPa]</legend>
+        <input id="f-rm-min" type="number" step="any" placeholder="von" />
+        <input id="f-rm-max" type="number" step="any" placeholder="bis" />
+      </fieldset>
+      <button id="f-reset" type="button">Zurücksetzen</button>
+      <details id="col-details" class="colsel">
+        <summary>Spalten</summary>
+        <div id="col-menu" class="col-menu"></div>
+      </details>
+      <button id="btn-pdf" type="button" title="Gefilterte Werkstoffe als PDF (Druckdialog)">PDF</button>
+      <span id="count" class="count"></span>
+    </section>
+
+    <main class="table-wrap">
+      <table id="tbl">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </main>
+
+    <dialog id="dlg">
+      <form id="form" method="dialog" autocomplete="off"></form>
+    </dialog>
+    <dialog id="dlg-md">
+      <form id="form-md" method="dialog" autocomplete="off"></form>
+    </dialog>
+    <div id="print-root" aria-hidden="true"></div>
+
+    <!-- Vorlage für ein Werkstoffblatt (Layout: css/print.css). Platzhalter {{feld}}; Schleifen mit each-Kommentar, siehe js/app.js. -->
+    <template id="tpl-materialblatt">
+      <article class="blatt">
+        <header class="blatt-head">
+          <span class="swatch" style="background: {{farbe}}"></span>
+          <div>
+            <h1>{{name}}</h1>
+            <p class="sub">{{kategorie}} · {{typ}}</p>
+          </div>
+          <div class="rev">Revision {{revision}}<br />{{datum}}</div>
+        </header>
+
+        <section>
+          <h2>Bezeichnung</h2>
+          <dl>
+            <dt>Werkstoff-Nummer</dt><dd>{{werkstoffNummer}}</dd>
+            <dt>Kurzname</dt><dd>{{kurzname}}</dd>
+            <dt>Veraltete Angaben</dt><dd>{{veraltet}}</dd>
+            <dt>Angabe auf Zeichnung</dt><dd>{{zeichnungsangabe}}</dd>
+            <dt>Schlüsselwörter</dt><dd>{{schluesselwoerter}}</dd>
+          </dl>
+          <p class="text">{{beschreibung}}</p>
+        </section>
+
+        <section>
+          <h2>Kennwerte</h2>
+          <table class="kennwerte">
+            <thead><tr><th>Eigenschaft</th><th class="r">Wert</th><th>Einheit</th></tr></thead>
+            <tbody>
+<!--each:kennwerte--><tr><td>{{name}}</td><td class="r">{{wert}}</td><td>{{einheit}}</td></tr><!--/each-->
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Norm</h2>
+          <p class="text">{{norm}}</p>
+          <h2>Datenblatt / Quellen</h2>
+          <p class="text">{{quellen}}</p>
+          <h2>Bemerkung</h2>
+          <p class="text">{{bemerkung}}</p>
+        </section>
+
+        <footer class="blatt-foot">{{id}} · WerkstoffDB · gedruckt am {{heute}}</footer>
+      </article>
+    </template>
+
+    <div id="toast" class="toast" role="status"></div>
+
+    <script src="data/werkstoffdb.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
